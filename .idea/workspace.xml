@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf3b6cd1-301a-48a5-8dfc-dad7d41df857" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://D:/StudySoftware/Maven/apache-maven-3.6.3/maven3/com/rabbitmq/amqp-client/5.7.2/amqp-client-5.7.2-sources.jar!/com/rabbitmq/client/Channel.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\StudySoftware\Maven\apache-maven-3.6.3\maven3" />
+        <option name="mavenHome" value="D:/StudySoftware/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\StudySoftware\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NSLs8BvAKgNa9qKUhLnkRT5jPC" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "jdk1.8",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "5521a7a1596c982420a511b8e39482fc",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\StudyProject\编程不良人\rabbitmq-study\rabbitmq-01-helloworld\src\main\java\com\zhixi\util" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zhixi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhixi.mq_04_routing.topic" />
+      <recent name="com.zhixi.mq_04_routing.direct" />
+      <recent name="com.zhixi.mq_03_fanout" />
+      <recent name="com.zhixi.workqueue" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RabbitMQTest.testRouteTopic">
+    <configuration name="RabbitMQTest.testFanout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-02-springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhixi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhixi" />
+      <option name="MAIN_CLASS_NAME" value="com.zhixi.RabbitMQTest" />
+      <option name="METHOD_NAME" value="testFanout" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMQTest.testFount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-02-springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhixi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhixi" />
+      <option name="MAIN_CLASS_NAME" value="com.zhixi.RabbitMQTest" />
+      <option name="METHOD_NAME" value="testFount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMQTest.testRoute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-02-springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhixi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhixi" />
+      <option name="MAIN_CLASS_NAME" value="com.zhixi.RabbitMQTest" />
+      <option name="METHOD_NAME" value="testRoute" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMQTest.testRouteTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-02-springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhixi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhixi" />
+      <option name="MAIN_CLASS_NAME" value="com.zhixi.RabbitMQTest" />
+      <option name="METHOD_NAME" value="testRouteTopic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMQTest.testWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-02-springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhixi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhixi" />
+      <option name="MAIN_CLASS_NAME" value="com.zhixi.RabbitMQTest" />
+      <option name="METHOD_NAME" value="testWork" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RabbitMQTest.testRouteTopic" />
+        <item itemvalue="JUnit.RabbitMQTest.testRoute" />
+        <item itemvalue="JUnit.RabbitMQTest.testFanout" />
+        <item itemvalue="JUnit.RabbitMQTest.testFount" />
+        <item itemvalue="JUnit.RabbitMQTest.testWork" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="bf3b6cd1-301a-48a5-8dfc-dad7d41df857" name="变更" comment="" />
+      <created>1679652742467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679652742467</updated>
+      <workItem from="1679652747214" duration="1569000" />
+      <workItem from="1679892502639" duration="1806000" />
+      <workItem from="1679903909236" duration="126000" />
+      <workItem from="1679904061063" duration="5361000" />
+      <workItem from="1679920526699" duration="2254000" />
+      <workItem from="1679926805953" duration="186000" />
+      <workItem from="1679927003929" duration="43000" />
+      <workItem from="1679927056833" duration="554000" />
+      <workItem from="1679927885257" duration="209000" />
+      <workItem from="1679969879421" duration="8200000" />
+      <workItem from="1680009590743" duration="6043000" />
+      <workItem from="1680082994430" duration="1504000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
