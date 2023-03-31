@@ -27,14 +27,11 @@ public class Consumber1 {
         Consumer consumer = new DefaultConsumer(channel) {
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
-                try {
-                    TimeUnit.SECONDS.sleep(2);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
                 String message = new String(body, StandardCharsets.UTF_8);
                 System.out.println("消费者1，消费消息：" + message);
-                channel.basicAck(envelope.getDeliveryTag(), false);//手动确认消息
+                // 参数1：确认队列中哪个具体消息
+                // 参数2：是否开启多个消息同时确认（false：手动确认消息）
+                channel.basicAck(envelope.getDeliveryTag(), false);
             }
         };
         // 5、消费消息(关闭自动提交)

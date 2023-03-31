@@ -76,7 +76,7 @@ public class ProviderTest {
         // 交换机不存在会自动创建，fanout表示广播。
         channel.exchangeDeclare("logs", "fanout");
         // 4、发送消息
-        // 交换机名称、路由键、持久化、消息体
+        // 交换机名称、路由键、消息持久化、消息体
         channel.basicPublish("logs", "", null, "fanout type message".getBytes());
         // 5、释放资源
         RabbitMQUtils.closeConnectionAndChanel(channel, connection);
@@ -97,7 +97,7 @@ public class ProviderTest {
         // 交换机不存在会自动创建，fanout表示广播。
         channel.exchangeDeclare("logs_direct", "direct");
         // 4、路由key
-        String routingKey = "warning";
+        String routingKey = "error";
         // 5、发送消息
         // 交换机名称、路由键、持久化、消息体
         channel.basicPublish("logs_direct", routingKey, null, ("基于路由方式的直连消息发送，路由键是【" + routingKey + "】发送的消息").getBytes());
